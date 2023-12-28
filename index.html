@@ -1,405 +1,482 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
 
-    <!-- Title: add your Portfolio website title here -->
-    <title>Shreya Lunkad | Data Scientist</title>
+  <!-- Title: add your Portfolio website title here -->
+  <title>Shreya Lunkad | Data Scientist</title>
 
-    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="shreyalunkad, shreya lunkad, data scientist, data analyst" />
+  <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+  <meta name="keywords" content="shreyalunkad, shreya lunkad, data scientist, data analyst" />
 
-    <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="Shreya Lunkad | Data Scientist" />
+  <!-- Improve your SEO by adding a small descrption of you -->
+  <meta name="description" content="Shreya Lunkad | Data Scientist" />
 
-    <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
-    <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
+  <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+  <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
 
-    <!-- Add your primary-theme color for the value of content -->
-    <meta name="theme-color" content="#36d1dc" />
+  <!-- Add your primary-theme color for the value of content -->
+  <meta name="theme-color" content="#36d1dc" />
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <!-- Fill content with the URL of this portfolio you'll host -->
-    <meta property="og:url" content="https://shreyalunkad.netlify.app/" />
-    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
-    <meta property="og:title" content="Shreya Lunkad | Data Scientist" />
-    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
-    <meta property="og:description" content="Portfolio website" />
-    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
-      so that a thumbnail image of your portfolio is shown while shared on other platform -->
-    <meta
-      property="og:image"
-      content="devfolio.png"
-    />
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <!-- Fill content with the URL of this portfolio you'll host -->
+  <meta property="og:url" content="https://shreyalunkad.netlify.app/" />
+  <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
+  <meta property="og:title" content="Shreya Lunkad | Data Scientist" />
+  <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
+  <meta property="og:description" content="Portfolio website" />
+  <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail
+    so that a thumbnail image of your portfolio is shown while shared on other platform -->
+  <meta
+          property="og:image"
+          content="devfolio.png"
+  />
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <!-- Again fill content attr with the URL of this portfolio you'll host -->
-    <meta property="twitter:url" content="https://shreyalunkad.netlify.app/" />
-    <!-- Recommended to use the same text used within <title> element -->
-    <meta property="twitter:title" content="Shreya Lunkad | Data Analyst" />
-    <!-- short description that shows up while your portfolio is shared -->
-    <meta
-      property="twitter:description"
-      content="Portfolio website"
-    />
-    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
-    <meta
-      property="twitter:image"
-      content="devfolio.png"
-    />
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <!-- Again fill content attr with the URL of this portfolio you'll host -->
+  <meta property="twitter:url" content="https://shreyalunkad.netlify.app/" />
+  <!-- Recommended to use the same text used within <title> element -->
+  <meta property="twitter:title" content="Shreya Lunkad | Data Analyst" />
+  <!-- short description that shows up while your portfolio is shared -->
+  <meta
+          property="twitter:description"
+          content="Portfolio website"
+  />
+  <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
+  <meta
+          property="twitter:image"
+          content="devfolio.png"
+  />
 
-    <!-- link tags -->
-    <link rel="preload" as="style" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/main.css" />
+  <!-- link tags -->
+  <link rel="preload" as="style" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/main.css" />
 
-    <!-- FontAwesome Icons link -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <script defer src="./javascript/scrollreveal.min.js"></script>
-    <script
-      defer
-      type="text/javascript"
-      src="./javascript/scrollveal.js"
-    ></script>
+  <!-- FontAwesome Icons link -->
+  <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+          integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"
+  />
+  <script defer src="./javascript/scrollreveal.min.js"></script>
+  <script
+          defer
+          type="text/javascript"
+          src="./javascript/scrollveal.js"
+  ></script>
 
-    <!-- Remove Google Analytics once you have your portfolio website set-up -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || []
-      function gtag() {
-        dataLayer.push(arguments)
-      }
-      gtag("js", new Date())
+  <!-- Remove Google Analytics once you have your portfolio website set-up -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || []
+    function gtag() {
+      dataLayer.push(arguments)
+    }
+    gtag("js", new Date())
 
-      gtag("config", "UA-122228201-4")
-    </script>
-   
-   
-    <!-- End of Google Analytics -->
-  </head>
-  <body>
-    <!-- Hero Section -->
-    <div style="height: 100vh; width: 100vw; position: absolute;" id="particles-js"></div>
-    <script src="particles.js"></script>
-   <script src="./javascript/app.js"></script>
-    <div id="hero">
-      <section class="container">
-        <h1 class="hero-title">
-          Hi, my name is <span class="text-color-main name">Shreya Lunkad</span>
-          <br />
-          I am a Data Scientist
-        </h1>
-        <div 
-          class="social-media-links"
-          style="display: flex; color:#272341;margin-bottom: 40px; gap:20px; width:100%"
-        >
-          <a
-          href="https://www.linkedin.com/in/shreyalunkad/"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="linkedin"
-          style="font-size: 3rem; color: #272341;"
-        >
-          <i class="fa-brands fa-linkedin"></i>
-        </a>
-        <a
-          href="https://github.com/slunkad"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="github"
-          style="font-size: 3rem; color:#272341"
+    gtag("config", "UA-122228201-4")
+  </script>
 
-        >
-          <i class="fa-brands fa-github"></i>
-        </a>
-        <a
-          href="https://medium.com/@shreyalunkad20"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="github"
-          style="font-size: 3rem; color:#272341"
 
-        >
-          <i class="fa-brands fa-medium"></i>
-        </a>
-      </div>
-        <p class="hero-cta">
-          <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
-        </p>
-      </section>
+  <!-- End of Google Analytics -->
+</head>
+<body>
+<!-- Hero Section -->
+<div style="height: 100vh; width: 100vw; position: absolute;" id="particles-js"></div>
+<script src="particles.js"></script>
+<script src="./javascript/app.js"></script>
+<div id="hero">
+  <section class="container">
+    <h1 class="hero-title">
+      Hi, my name is <span class="text-color-main name">Shreya Lunkad</span>
+      <br />
+      I am a Data Scientist
+    </h1>
+    <div
+            class="social-media-links"
+            style="display: flex; color:#272341;margin-bottom: 40px; gap:20px; width:100%; position:sticky; z-index: 10000;"
+    >
+      <a
+              href="https://www.linkedin.com/in/shreyalunkad/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="linkedin"
+              style="font-size: 3rem; color: #272341;"
+      >
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a
+              href="https://github.com/slunkad"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="github"
+              style="font-size: 3rem; color:#272341"
+
+      >
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a
+              href="https://medium.com/@shreyalunkad20"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="github"
+              style="font-size: 3rem; color:#272341"
+
+      >
+        <i class="fa-brands fa-medium"></i>
+      </a>
     </div>
-    <!-- /END Hero Section -->
+    <p class="hero-cta">
+      <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
+    </p>
+  </section>
+</div>
+<!-- /END Hero Section -->
 
-    <!-- About Section -->
-    <section id="about">
-      <div class="container">
-        <h2 class="section-title">About Me</h2>
-        <div class="row about-wrapper">
-          <div class="about-wrapper__image">
-            <img
-              class="img-fluid"
-              src="./assets/profile.jpeg"
-              alt="Profile Image"
-              width="450"
-              height="350"
-            />
-          </div>
-          <div class="about-wrapper__info">
-            <p class="about-wrapper__info-text">
-              I am a passionate Data Scientist proficient in Python, SQL and all things data.
-            </p>
-            <p class="about-wrapper__info-text">
-              I was a Data Intern at <a style="color:white;text-decoration: underline ; font-weight: bold;" href="https://www.infinitus.ai/">Infinitus Systems</a> this summer where I built data-driven solutions to bridge the communication gap in the healthcare industry.
-            </p>
-            <p class="about-wrapper__info-text">
-            Currently, I am pursuing my Masters in Information Systems Management with a concentration in Business Intelligence and Data Analytics at <b>Carnegie Mellon University</b>.
-            </p>
-            <p class="about-wrapper__info-text">
-              What inspires me is the potential that data holds. I want to work towards leveraging data and creating actionable business strategies that create an impact on the world.              </p>
-            <span class="about-wrapper__cta">
+<!-- About Section -->
+<section id="about">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <div class="row about-wrapper">
+      <div class="about-wrapper__image">
+        <img
+                class="img-fluid"
+                src="./assets/profile.jpeg"
+                alt="Profile Image"
+                width="450"
+                height="350"
+        />
+      </div>
+      <div class="about-wrapper__info">
+        <p class="about-wrapper__info-text">
+          I am a passionate Data Scientist proficient in Python, SQL and all things data.
+        </p>
+        <p class="about-wrapper__info-text">
+          I was a Data Intern at <a style="color:white;text-decoration: underline ; font-weight: bold;" href="https://www.infinitus.ai/">Infinitus Systems</a> this summer where I built data-driven solutions to bridge the communication gap in the healthcare industry.
+        </p>
+        <p class="about-wrapper__info-text">
+          Currently, I am pursuing my Masters in Information Systems Management with a concentration in Business Intelligence and Data Analytics at <b>Carnegie Mellon University</b>.
+        </p>
+        <p class="about-wrapper__info-text">
+          What inspires me is the potential that data holds. I want to work towards leveraging data and creating actionable business strategies that create an impact on the world.              </p>
+        <span class="about-wrapper__cta">
               <a href="https://drive.google.com/file/d/16pesn35arIMhpLfc8z8jF5z0vW-qj9HF/view?usp=sharing" class="cta-btn cta-btn--resume">View Resume</a>
             </span>
-          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- /END About Section -->
+<!--Projects Section-->
+<section id="projects">
+  <div class="container">
+    <div class="project-wrapper">
+      <h2 class="section-title dark-blue-text">Blogs</h2>
+      <p class="" style="padding-bottom:60px">
+        These are few of the projects that I have worked on.<br/> I love to explore new technologies and try to solve real world problems with a data-driven solution.<br/>
+
+        I believe that learning by doing is the ultimate key to mastery.
+
+        Currently, I am working on leveling up my data science skills, and also dabbling in leveraging data for product analytics.            </p>
+
+      <div style="display: flex; align-items: center; justify-content: center; gap: 40px; flex-wrap: wrap;">
+        <div  style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); width: 320px; padding: 20px; align-self:stretch; display: flex; flex-direction:column;    ">
+          <p style="font-weight: bold; flex:1">
+            Decoding AI Regulations: Global Policies and Their Effects
+          </p>
+          <p class="blog-wrapper-description" style="margin: 12px 0; flex: 1;">
+            A Comparative Exploration of Global AI Policies, their Strategies and Implications in Shaping the AI Era
+          </p>
+          <a href="https://medium.com/@shreyalunkad20/decoding-ai-regulations-global-policies-and-their-effects-0cf725ff82ee" target="_blank" class="cta-btn text-color-main"
+          >Read More
+          </a>
+        </div>
+        <div  style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); width: 320px; padding: 20px; align-self:stretch; display: flex; flex-direction:column;    ">
+          <p style="font-weight: bold; flex:1">
+            Ethical AI Governance: Building Trust in Technology
+          </p>
+          <p class="blog-wrapper-description" style="margin: 12px 0; flex: 1;">
+            Explore the vital role of ethical AI governance in fostering trust in technology, and unraveling the frameworks for  responsible innovation      </p>
+          <a href="https://medium.com/@shreyalunkad20/decoding-ai-regulations-global-policies-and-their-effects-0cf725ff82ee" target="_blank" class="cta-btn text-color-main"
+          >Read More
+          </a>
+        </div>
+        <div  style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); width: 320px; padding: 20px; align-self:stretch; display: flex; flex-direction:column;    ">
+          <p style="font-weight: bold; flex:1">
+            Time Series Analysis
+          </p>
+          <p class="blog-wrapper-description" style="margin: 12px 0; flex: 1;">
+            A Comparative Exploration of Global AI Policies, their Strategies and Implications in Shaping the AI Era
+          </p>
+          <a href="https://medium.com/@shreyalunkad20/decoding-ai-regulations-global-policies-and-their-effects-0cf725ff82ee" target="_blank" class="cta-btn text-color-main"
+          >Read More
+          </a>
+        </div>
+        <div  style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); width: 320px; padding: 20px; align-self:stretch; display: flex; flex-direction:column;    ">
+          <p style="font-weight: bold; flex:1">
+            Decoding AI Regulations: Global Policies and Their Effects
+          </p>
+          <p class="blog-wrapper-description" style="margin: 12px 0; flex: 1;">
+            A Comparative Exploration of Global AI Policies, their Strategies and Implications in Shaping the AI Era
+          </p>
+          <a href="https://medium.com/@shreyalunkad20/decoding-ai-regulations-global-policies-and-their-effects-0cf725ff82ee" target="_blank" class="cta-btn text-color-main"
+          >Read More
+          </a>
+        </div>
+        <div  style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); width: 320px; padding: 20px; align-self:stretch; display: flex; flex-direction:column;    ">
+          <p style="font-weight: bold; flex:1">
+            Decoding AI Regulations: Global Policies and Their Effects
+          </p>
+          <p class="blog-wrapper-description" style="margin: 12px 0; flex: 1;">
+            A Comparative Exploration of Global AI Policies, their Strategies and Implications in Shaping the AI Era
+          </p>
+          <a href="https://medium.com/@shreyalunkad20/decoding-ai-regulations-global-policies-and-their-effects-0cf725ff82ee" target="_blank" class="cta-btn text-color-main"
+          >Read More
+          </a>
+        </div>
+        <div  style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); width: 320px; padding: 20px; align-self:stretch; display: flex; flex-direction:column;    ">
+          <p style="font-weight: bold; flex:1">
+            Decoding AI Regulations: Global Policies and Their Effects
+          </p>
+          <p class="blog-wrapper-description" style="margin: 12px 0; flex: 1;">
+            A Comparative Exploration of Global AI Policies, their Strategies and Implications in Shaping the AI Era
+          </p>
+          <a href="https://medium.com/@shreyalunkad20/decoding-ai-regulations-global-policies-and-their-effects-0cf725ff82ee" target="_blank" class="cta-btn text-color-main"
+          >Read More
+          </a>
         </div>
       </div>
-    </section>
-    <!-- /END About Section -->
+    </div>
+  </div>
 
-    <!--Projects Section-->
-    <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text"">Projects</h2>
-          <p class="" style="padding-bottom:60px">
-            These are few of the projects that I have worked on.<br/> I love to explore new technologies and try to solve real world problems with a data-driven solution.<br/>
 
-            I believe that learning by doing is the ultimate key to mastery.
-            
-            Currently, I am working on leveling up my data science skills, and also dabbling in leveraging data for product analytics.            </p>
+  <div class="container">
+    <div class="project-wrapper">
+      <h2 class="section-title dark-blue-text">Projects</h2>
+      <p class="" style="padding-bottom:60px">
+        These are few of the projects that I have worked on.<br/> I love to explore new technologies and try to solve real world problems with a data-driven solution.<br/>
 
-          <!-- Each .row is a project -->
-          <article class="row">
-            <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Keystroke Analysis for Password Authentication</h3>
-              <p class="project-wrapper__text-info">
-                An authentication system based on inherent typing rhythm
-              </p>
-              <p class="project-wrapper__text-info">
-                Tech Stack: SVM, Manhattan Detector, Neural Networks
-              </p>
-              <div class="project-wrapper__text-btns">
-                <a
-                        href="https://github.com/slunkad/Keystroke-Analysis-for-Password-Authentication/blob/main/SVM.py"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="cta-btn cta-btn--hero cta-btn--projects"
-                >See Live</a
-                >
-                <a href="https://github.com/slunkad/Keystroke-Analysis-for-Password-Authentication" target="_blank" class="cta-btn text-color-main"
-                >Source Code</a
-                >
-              </div>
-            </div>
+        I believe that learning by doing is the ultimate key to mastery.
 
-            <div class="project-wrapper__image">
-                <div class="thumbnail rounded">
-                  <img
-                          src="./assets/keystroke.jpeg"
-                          class="img-fluid"
-                          alt="Project Image"
-                          width="1366"
-                          height="767"
-                  />
-                </div>
-              </a>
-            </div>
-          </article>
-          <!-- /END Project -->
+        Currently, I am working on leveling up my data science skills, and also dabbling in leveraging data for product analytics.            </p>
 
+      <!-- Each .row is a project -->
+      <article class="row">
+        <div class="project-wrapper__text">
+          <h3 class="project-wrapper__text-title">Keystroke Analysis for Password Authentication</h3>
+          <p class="project-wrapper__text-info">
+            An authentication system based on inherent typing rhythm
+          </p>
+          <p class="project-wrapper__text-info">
+            Tech Stack: SVM, Manhattan Detector, Neural Networks
+          </p>
+          <div class="project-wrapper__text-btns">
+            <a
+                    href="https://github.com/slunkad/Keystroke-Analysis-for-Password-Authentication/blob/main/SVM.py"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="cta-btn cta-btn--hero cta-btn--projects"
+            >See Live</a
+            >
+            <a href="https://github.com/slunkad/Keystroke-Analysis-for-Password-Authentication" target="_blank" class="cta-btn text-color-main"
+            >Source Code</a
+            >
+          </div>
+        </div>
+
+        <div class="project-wrapper__image">
+          <div class="thumbnail rounded">
+            <img
+                    src="./assets/keystroke.jpeg"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+            />
+          </div>
+          </a>
+        </div>
+      </article>
+      <!-- /END Project -->
 
 
 
-          <!-- Each .row is a project -->
-          <article class="row">
-            <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Credit Card Fraud Detection</h3>
-              <p class="project-wrapper__text-info">
-                A tool to identifying and flag fraudulent bank transactions and increase security
-              </p>
-              <p class="project-wrapper__text-info">
-              Tech Stack: AutoEncoder Neural Network, TensorFlow, Matplotlib
-            </p>
-              <div class="project-wrapper__text-btns">
-                <a
-                  href="https://github.com/slunkad/Credit-Card-Fraud-Detection-using-AutoEncoders/blob/main/CreditCard_Fraud_Detection.ipynb"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="cta-btn cta-btn--hero cta-btn--projects"
-                  >See Live</a
-                >
-                <a href="https://github.com/slunkad/Credit-Card-Fraud-Detection-using-AutoEncoders" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
-                >
-              </div>
-            </div>
 
-            <div class="project-wrapper__image">
-                <div class="thumbnail rounded">
-                  <img
+      <!-- Each .row is a project -->
+      <article class="row">
+        <div class="project-wrapper__text">
+          <h3 class="project-wrapper__text-title">Credit Card Fraud Detection</h3>
+          <p class="project-wrapper__text-info">
+            A tool to identifying and flag fraudulent bank transactions and increase security
+          </p>
+          <p class="project-wrapper__text-info">
+            Tech Stack: AutoEncoder Neural Network, TensorFlow, Matplotlib
+          </p>
+          <div class="project-wrapper__text-btns">
+            <a
+                    href="https://github.com/slunkad/Credit-Card-Fraud-Detection-using-AutoEncoders/blob/main/CreditCard_Fraud_Detection.ipynb"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="cta-btn cta-btn--hero cta-btn--projects"
+            >See Live</a
+            >
+            <a href="https://github.com/slunkad/Credit-Card-Fraud-Detection-using-AutoEncoders" target="_blank" class="cta-btn text-color-main"
+            >Source Code</a
+            >
+          </div>
+        </div>
+
+        <div class="project-wrapper__image">
+          <div class="thumbnail rounded">
+            <img
                     src="./assets/CCFD.png"
                     class="img-fluid"
                     alt="Project Image"
                     width="1366"
                     height="767"
-                  />
-                </div>
-              </a>
-            </div>
-          </article>
-          <!-- /END Project -->
+            />
+          </div>
+          </a>
+        </div>
+      </article>
+      <!-- /END Project -->
 
 
 
-          <!-- Each .row is a project -->
-          <article class="row">
-            <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Twitter Sentiment Analysis</h3>
-              <p class="project-wrapper__text-info">
-                A tool to detect hate speech on social media
-              </p>
-              <p class="project-wrapper__text-info">
-                Tech Stack: NLTK,Logistic Regression, SVM, Random Forest, XGBoost, TF-IDF, Bag of Words
-              </p>
-              <div class="project-wrapper__text-btns">
-                <a
-                  href="https://github.com/slunkad/Twitter-Sentiment-Analysis/blob/main/Sentiment%20Analysis.ipynb"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="cta-btn cta-btn--hero cta-btn--projects"
-                  >See Live</a
-                >
-                <a href="https://github.com/slunkad/Twitter-Sentiment-Analysis" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
-                >
-              </div>
-            </div>
+      <!-- Each .row is a project -->
+      <article class="row">
+        <div class="project-wrapper__text">
+          <h3 class="project-wrapper__text-title">Twitter Sentiment Analysis</h3>
+          <p class="project-wrapper__text-info">
+            A tool to detect hate speech on social media
+          </p>
+          <p class="project-wrapper__text-info">
+            Tech Stack: NLTK,Logistic Regression, SVM, Random Forest, XGBoost, TF-IDF, Bag of Words
+          </p>
+          <div class="project-wrapper__text-btns">
+            <a
+                    href="https://github.com/slunkad/Twitter-Sentiment-Analysis/blob/main/Sentiment%20Analysis.ipynb"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="cta-btn cta-btn--hero cta-btn--projects"
+            >See Live</a
+            >
+            <a href="https://github.com/slunkad/Twitter-Sentiment-Analysis" target="_blank" class="cta-btn text-color-main"
+            >Source Code</a
+            >
+          </div>
+        </div>
 
-            <div class="project-wrapper__image">
+        <div class="project-wrapper__image">
 
-                <div class="thumbnail rounded">
-                  <img
+          <div class="thumbnail rounded">
+            <img
                     src="./assets/TSA.jpeg"
                     class="img-fluid"
                     alt="Project Image"
                     width="1366"
                     height="767"
-                  />
-                </div>
-              </a>
-            </div>
-          </article>
-          <!-- /END Project -->
-
-
-          <p class="hero-cta" style="padding: 100px 0">
-            <a class="cta-btn cta-btn--hero cta-projects" href="projects.html" >All projects</a>
-          </p>
-        </div>
-       
-      </div>
-     
-    </section>
-    <!-- End Projects Section -->
-
-    <!-- Contact Section -->
-    <section id="contact">
-      <div class="container">
-        <h2 class="section-title">Contact</h2>
-        <div class="contact-wrapper">
-          <p class="contact-wrapper__text">Looking for a passionate Data Scientist join your team? Awesome!</p>
-          <a href="mailto:shreyalunkad20@gmail.com" class="cta-btn cta-btn--resume">Let's talk</a>
-        </div>
-        <a href="#hero" class="back-to-top" aria-label="go back to top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-        </a>
-      </div>
-    </section>
-    <!-- END Contact Section -->
-
-    <!-- Footer Section -->
-    <!-- <footer class="footer">
-      <div class="container">
-        <a href="#hero" class="back-to-top" aria-label="go back to top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-        </a>
-        <div class="social-links">
-          <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="twitter"
-          >
-            <i class="fa-brands fa-twitter"></i>
-          </a>
-          <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="instagram"
-          >
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-          <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="codepen"
-          >
-            <i class="fa-brands fa-codepen"></i>
-          </a>
-          <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="linkedin"
-          >
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
-          <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="github"
-          >
-            <i class="fa-brands fa-github"></i>
+            />
+          </div>
           </a>
         </div>
-        <hr />
-      </div>
-    </footer> -->
-    <!-- END Footer Section -->
+      </article>
+      <!-- /END Project -->
+      <p class="hero-cta" style="padding: 100px 0">
+        <a class="cta-btn cta-btn--hero cta-projects" href="projects.html" >All projects</a>
+      </p>
+    </div>
 
-    <script>
-      document.getElementById("year").textContent = new Date().getFullYear()
-    </script>
-    <script src="./javascript/vanilla-tilt.min.js"></script>
-    <script type="text/javascript" src="./javascript/valtilt.js"></script>
-  </body>
+  </div>
+
+</section>
+<!-- End Projects Section -->
+
+<!-- Contact Section -->
+<section id="contact">
+  <div class="container">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-wrapper">
+      <p class="contact-wrapper__text">Looking for a passionate Data Scientist join your team? Awesome!</p>
+      <a href="mailto:shreyalunkad20@gmail.com" class="cta-btn cta-btn--resume">Let's talk</a>
+    </div>
+    <a href="#hero" class="back-to-top" aria-label="go back to top">
+      <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+    </a>
+  </div>
+</section>
+<!-- END Contact Section -->
+
+<!-- Footer Section -->
+<!-- <footer class="footer">
+  <div class="container">
+    <a href="#hero" class="back-to-top" aria-label="go back to top">
+      <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+    </a>
+    <div class="social-links">
+      <a
+        href="#!"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="twitter"
+      >
+        <i class="fa-brands fa-twitter"></i>
+      </a>
+      <a
+        href="#!"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="instagram"
+      >
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a
+        href="#!"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="codepen"
+      >
+        <i class="fa-brands fa-codepen"></i>
+      </a>
+      <a
+        href="#!"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="linkedin"
+      >
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a
+        href="#!"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="github"
+      >
+        <i class="fa-brands fa-github"></i>
+      </a>
+    </div>
+    <hr />
+  </div>
+</footer> -->
+<!-- END Footer Section -->
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear()
+</script>
+<script src="./javascript/vanilla-tilt.min.js"></script>
+<script type="text/javascript" src="./javascript/valtilt.js"></script>
+</body>
 </html>
